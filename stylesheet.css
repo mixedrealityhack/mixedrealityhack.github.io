@@ -127,14 +127,14 @@ main {
 }
 
 #home button {
-    background-color: white;
+    background-color: #ea7146;
     border: none;
-    color: black;
+    color: white;
     padding: 15px 32px;
     text-decoration: none;
     display: inline-block;
-    font-size: 1em;
-    border-radius: 12px;
+    font-size: 1.3em;
+    border-radius: 16px;
     margin: 10px 0;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -142,11 +142,11 @@ main {
 }
 
 #home-main h4 {
-    padding: 10px 0 0 0;
+    padding: 10px 0 20px 0;
 }
 
 #home button:hover {
-    background-color: #63caea;
+    background-color: #c7273f;
 }
 
 #sponsor {
