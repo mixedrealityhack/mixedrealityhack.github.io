@@ -88,10 +88,10 @@ nav li a:hover {
 article {
     height: 70vh;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-flow: row wrap;
 }
+
 
 main {
     width: 100%;
@@ -107,6 +107,7 @@ main {
     align-items: center;
     justify-content: center; */
     display: flex;
+    align-items: center;
     background-color: #833a93;
     width: 100%;
     /* max-width: 100%; */
@@ -158,9 +159,38 @@ main {
     font-size: 2em;
 }
 
+/* ABOUT SECTION */
+article#about {
+    /* width: 960px; */
+    background-color: #b0ccf4;
+    margin: 0 0 -3px 0;
+    /* height: 80vh; */
+}
+
+article div {
+    width: 100%;   
+}
+
+article#about h1 {
+    /* width: 960px; */
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+
+.about {
+    width: 480px;
+    padding: 10px;
+}
+
+#ar-person {
+    text-align: center;
+    margin: 0;
+}
+
 footer {
     text-align: center;
     display: flex;
     flex-flow: column wrap;
     bottom: 5px;
+    padding: 20px 0 0 0;
 }
