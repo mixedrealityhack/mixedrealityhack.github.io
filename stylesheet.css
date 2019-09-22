@@ -109,12 +109,26 @@ main {
     justify-content: center; */
     display: flex;
     align-items: center;
-    background-color: #833a93;
+    /* background-color: #833a93; */
+    background-image: linear-gradient(to right, rgba(131, 58, 147, 0.80),rgba(56, 64, 149, 0.8)), url('assets/ar-woman.JPG');
     width: 100%;
     /* max-width: 100%; */
 }
 
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#home h1 {
+    font-size: 4em;
+}
+
+#home h4 {
+    font-size: 2em;
+}
 
 #home-main {
     width: 600px;
@@ -122,6 +136,8 @@ main {
     padding: 0 10px 0 0;
     color: white;
 }
+
+
 
 #img {
     width: 350px;
@@ -152,12 +168,16 @@ main {
 
 #sponsor {
     text-align: center;
-    padding: 20px;
+    padding: 60px 20px;
 }
 
 #sponsor h3 {
     color: #384095;
     font-size: 2em;
+}
+
+#sponsor>h3:nth-of-type(2){
+    padding: 40px 0;
 }
 
 /* ABOUT SECTION */
