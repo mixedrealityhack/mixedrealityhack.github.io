@@ -51,7 +51,8 @@ h3 {
 }
 
 nav {
-    padding: 20px 0 0 0;
+    padding: 20px 20px 0 20px;
+    height: 70px;
 }
 
 nav img {
@@ -66,7 +67,7 @@ nav ul {
     overflow: hidden;
     background-color: white;
     text-transform: uppercase;
-    /* float: right; */
+    float: right;
 }
 
 nav li {
