@@ -239,9 +239,31 @@ article div {
     color: white;
 } */
 
-#roles h1 {
-    
+#roles {
+    text-align: center;
 }
+
+#roles h1 {
+    color: #384095;
+    padding: 20px 0;
+    width: 100%;
+}
+
+#roles h2 {
+    font-size: 2em;
+    color: purple;
+    padding: 0 0 10px 0;
+}
+
+.type {
+    padding: 20px 40px;
+    width: 40%;
+}
+
+#roles form {
+    width: 100%;
+}
+
 
 footer {
     text-align: center;
