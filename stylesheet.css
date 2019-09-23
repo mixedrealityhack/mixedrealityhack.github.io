@@ -216,16 +216,16 @@ article div {
 }
 
 #about {
-    padding: 100px 0;
+    padding: 80px 0;
     text-align: center;
 }
 
-#about h4 {
+#about h4, #about h2 {
     padding: 0 0 20px 0;
 }
 
 .about {
-    width: 400px;
+    width: 550px;
     padding: 30px;
     text-align: center;
 }
@@ -241,6 +241,7 @@ article div {
 
 #roles {
     text-align: center;
+    padding: 50px 20px;
 }
 
 #roles h1 {
@@ -256,12 +257,13 @@ article div {
 }
 
 .type {
-    padding: 20px 40px;
+    padding: 20px 30px;
     width: 40%;
 }
 
 #roles form {
     width: 100%;
+    padding: 40px 0 0 0;
 }
 
 
