@@ -37,6 +37,11 @@ h3 {
     font-size: 2.5em;
 }
 
+h5 {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+}
 @media screen and (min-width: 768px) {
 
 }
@@ -87,7 +92,6 @@ nav li a:hover {
 }
 
 article {
-    height: 70vh;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -101,12 +105,15 @@ main {
     flex-direction: column;
 }
 #home {
+    height: 70vh;
+    min-height: 800px;
     /* width: 960px; */
     /* min-width: 360px; */
     /* display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center; */
+    padding: 50px 20px;
     display: flex;
     align-items: center;
     /* background-color: #833a93; */
@@ -143,7 +150,7 @@ main {
     width: 350px;
 }
 
-#home button {
+.button {
     background-color: #ea7146;
     border: none;
     color: white;
@@ -162,7 +169,7 @@ main {
     padding: 10px 0 20px 0;
 }
 
-#home button:hover {
+.button:hover {
     background-color: #c7273f;
 }
 
@@ -180,8 +187,24 @@ main {
     padding: 40px 0;
 }
 
+/* CHALLENGE */
+#challenge {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#challenge h2 {
+    color: #833a93;
+    padding: 15px 0;
+}
+
+#challenge div {
+    max-width: 450px;
+    padding: 30px 50px;
+}
+
 /* ABOUT SECTION */
-article#about {
+#about {
     /* width: 960px; */
     background-color: #b0ccf4;
     margin: 0 0 -3px 0;
@@ -192,20 +215,32 @@ article div {
     width: 100%;   
 }
 
-article#about h1 {
-    /* width: 960px; */
+#about {
+    padding: 100px 0;
     text-align: center;
-    padding: 100px 0 0 0;
+}
+
+#about h4 {
+    padding: 0 0 20px 0;
 }
 
 .about {
-    width: 480px;
-    padding: 10px;
+    width: 400px;
+    padding: 30px;
+    text-align: center;
 }
 
 #ar-person {
     text-align: center;
     margin: 0;
+}
+
+/* .fas fa-paint-brush {
+    color: white;
+} */
+
+#roles h1 {
+    
 }
 
 footer {
