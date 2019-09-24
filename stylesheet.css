@@ -209,16 +209,12 @@ main {
     /* width: 960px; */
     background-color: #b0ccf4;
     margin: 0 0 -3px 0;
-    /* height: 80vh; */
+    padding: 80px 20px;
+    text-align: center;
 }
 
 article div {
     width: 100%;   
-}
-
-#about {
-    padding: 80px 0;
-    text-align: center;
 }
 
 #about h4, #about h2 {
@@ -273,7 +269,7 @@ footer {
     display: flex;
     flex-flow: column wrap;
     bottom: 5px;
-    padding: 20px 0 0 0;
+    padding: 30px 20px;
 }
 
 @media only screen and (max-width: 960px) {
@@ -282,7 +278,7 @@ footer {
     }
 
     .type {
-        padding: 20px 30px;
+        padding: 50px 30px;
         width: 100%;
     }
 
