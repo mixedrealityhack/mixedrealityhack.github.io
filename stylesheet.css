@@ -272,6 +272,20 @@ footer {
     padding: 30px 20px;
 }
 
+#partners {
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+#partners div {
+    padding: 20px 0;
+}
+
+#partners h3 {
+    color: #384095;
+    font-size: 2em;
+}
+
 @media only screen and (max-width: 960px) {
     #home {
         height: 1100px;
