@@ -286,6 +286,19 @@ footer {
     font-size: 2em;
 }
 
+#partners h2 {
+    padding: 20px 0;
+}
+
+#partners a {
+    text-decoration: none;
+}
+
+#partners a:hover {
+    color: #ea7146;
+    
+}
+
 @media only screen and (max-width: 960px) {
     #home {
         height: 1100px;
