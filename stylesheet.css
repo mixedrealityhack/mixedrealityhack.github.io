@@ -190,6 +190,10 @@ main {
     padding: 40px 0;
 }
 
+#sponsor img {
+    margin: 20px 60px;
+}
+
 /* CHALLENGE */
 #challenge {
     text-align: center;
