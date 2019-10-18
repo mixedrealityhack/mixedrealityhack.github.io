@@ -210,6 +210,73 @@ main {
     padding: 30px 50px;
 }
 
+/* VOLUNTEERS */
+#volunteers {
+    background-color: #36342f;
+    margin: 0;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+#volunteers p {
+    font-size: 1.2em;
+    padding: 30px 0;
+}
+
+/* SCHEDULE */
+
+#schedule {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    padding: 60px;
+}
+
+#schedule h1 {
+    display: block;
+}
+
+
+#schedule div {
+    /* width: 100%; */
+}
+
+.day {
+    width: 400px;
+    height: 1300px;
+    /* border: red solid 1px; */
+    text-align: left;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.speaker {
+    color: darkorange;
+    font-weight: 700;
+    /* font-size: 0.8em; */
+}
+
+.ven {
+    color: navy;
+    /* font-weight: 700; */
+    font-size: 1em;
+}
+
+.day h3 {
+    font-size: 1.2em;
+    color: black;
+    font-weight: 700;
+    color: purple;
+    padding: 15px 0 0 0;
+}
+
+.day h2 {
+    /* padding: 0 0 15px 0; */
+    font-size: 2em;
+}
+
 /* ABOUT SECTION */
 #about {
     /* width: 960px; */
@@ -218,6 +285,7 @@ main {
     padding: 80px 20px;
     text-align: center;
 }
+
 
 article div {
     width: 100%;   
