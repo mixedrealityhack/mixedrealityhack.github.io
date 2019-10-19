@@ -322,7 +322,7 @@ article div {
     width: 100%;
 }
 
-#roles h2 {
+#roles h2, #readyhack h2 {
     font-size: 2em;
     color: purple;
     padding: 0 0 10px 0;
@@ -377,6 +377,57 @@ footer {
 #partners img {
     margin: 20px 60px;
 }
+
+#readyhack h1 {
+    width: 100%;
+    text-align: center;
+    padding: 0 0 80px 0;
+}
+
+#readyhack {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#readyhack div {
+    width: 40%;
+}
+
+#readyhack h2 {
+    text-align: center;
+}
+
+#readyhack li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+#readyhack ul {
+    padding: 0;
+}
+
+#guests {
+    padding: 80px 20px;
+}
+
+#guests {
+    color: #384095;
+}
+
+#guests h1 {
+    width: 100%;
+    text-align: center;
+}
+
+#guests h3 {
+    font-size: 2em;
+}
+
+.guest {
+    width: 40%;
+    padding: 20px 40px;
+}
+
 @media only screen and (max-width: 960px) {
     #home {
         height: 1100px;
