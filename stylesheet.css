@@ -390,11 +390,13 @@ footer {
 }
 
 #readyhack div {
-    width: 40%;
+    max-width: 800px;
+    min-width: 400px;
 }
 
 #readyhack h2 {
     text-align: center;
+    padding: 30px 0;
 }
 
 #readyhack li {
@@ -424,7 +426,8 @@ footer {
 }
 
 .guest {
-    width: 40%;
+    max-width: 800px;
+    min-width: 400px;
     padding: 20px 40px;
 }
 
